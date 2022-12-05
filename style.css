@@ -43,6 +43,7 @@ body {
 .container .small-images img {
   width: 10.2rem;
   height: 10.2rem;
+  object-fit: cover;
   margin: 10px;
   cursor: pointer;
   transition: all 0.23s;
@@ -69,6 +70,7 @@ body {
   .container .small-images img {
     width: 10rem;
     height: 10rem;
+    object-fit: cover;
   }
 }
 @media (max-width: 500px) {
@@ -79,6 +81,7 @@ body {
   .container .small-images img {
     width: 8rem;
     height: 8rem;
+    object-fit: cover;
   }
 }
 @media (max-width: 300px) {
@@ -89,5 +92,6 @@ body {
   .container .small-images img {
     width: 7rem;
     height: 7rem;
+    object-fit: cover;
   }
 }
